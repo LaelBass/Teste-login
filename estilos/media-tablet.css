@@ -27,3 +27,29 @@ grandes telas: acima de 1200px
         width: 70%;
     }
 }
+
+@media screen and (min-width:992px){
+    section#login {
+        width: 85vw;
+        height: 500px;
+    }
+
+    section#login > div#formulario > p {
+        font-size: 1.3em;
+        margin-left: 10px;
+    }
+
+    section#login > div#imagem{
+        float: right;
+        width: 35%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        position: relative;
+        top: 15%;
+        float: left;
+        width: 65%;
+    
+    }
+}
