@@ -14,10 +14,6 @@ body, html {
     
 }
 
-main {
-    position: relative;
-    height:100vh;
-}
 
 section#login {
     position: absolute;
@@ -73,6 +69,10 @@ div.campo  input {
     margin-top: 5px;
     margin-bottom: 5px;
     border: 1px solid black;
+}
+
+div.campo label {
+    font-size: 0.9em;
 }
 
 form > a.botao:hover {
